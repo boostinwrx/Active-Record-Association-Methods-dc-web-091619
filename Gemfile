@@ -3,9 +3,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem 'sqlite3', '~> 1.3.6'
-gem 'activerecord'
+gem 'activerecord', '>= 5.2.4.5'
 gem 'rspec'
 gem 'pry'
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord', '>= 2.0.13'
 gem 'rake'
 gem 'database_cleaner'
